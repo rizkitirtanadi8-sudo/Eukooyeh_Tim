@@ -1,0 +1,217 @@
+# Environment Variables (NEVER COMMIT THESE!)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+backend/.env
+backend/.env.local
+frontend/.env.local
+frontend/.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Next.js
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Uploads & Data
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+!frontend/public/**/*.png
+!frontend/public/**/*.jpg
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup & Old Files
+_old_backup/
+*.backup
+*.bak
+app_demo.py
+frontend_app_v2.py
+SETUP_GUIDE.md
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# PROJECT-SPECIFIC IGNORES
+# ============================================
+
+# Test Results & Reports
+backend/tests/results/
+backend/tests/__pycache__/
+backend/tests/*.log
+backend/tests/scripts/output/
+*.test.log
+TEST_RESULTS.md
+
+# Documentation Drafts (keep published docs)
+docs/drafts/
+*.draft.md
+*_DRAFT.md
+
+# Temporary Development Files
+*_temp.py
+*_backup.py
+*_old.*
+*_test_*.py
+cleanup_structure.sh
+PROJECT_STRUCTURE_AUDIT.md
+
+# System Check Reports (generated, not committed)
+SYSTEM_CHECK_REPORT.md
+CLEANUP_REPORT.md
+
+# Development Scripts Output
+backend/tests/scripts/*.log
+backend/tests/scripts/*.txt
+backend/tests/scripts/output/
+
+# Shopify Testing (keep implementation docs)
+docs/shopify/*_STATUS.md
+docs/shopify/*_CHECKLIST.md
+
+# Performance Testing
+PERFORMANCE_*.md
+BENCHMARK_*.md
+
+# Migration Backups
+database/migrations/*.backup.sql
+database/migrations/*_old.sql
+
+# ============================================
+# PRODUCTION IGNORES (GitHub Push)
+# ============================================
+
+# Test & Development Documentation
+TEST_CHECKLIST.md
+QUICK_TEST.sh
+FINAL_SUMMARY.md
+FLOW_DIAGRAM.md
+SHOPIFY_QUICK_TEST.md
+SHOPIFY_DIRECT_ACCESS_GUIDE.md
+SHOPIFY_PUBLISH_GUIDE.md
+SHOPIFY_INTEGRATION.md
+
+# Development Test Scripts
+test_*.py
+test_*.sh
+backend/test_shopify.py
+
+# Local Development Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive Data (NEVER COMMIT!)
+*.env
+*.env.*
+!*.env.example
+backend/.env
+frontend/.env.local
+
+# Build & Cache
+.next/
+__pycache__/
+*.pyc
+node_modules/
+venv/
+env/
+
+# Logs & Temp Files
+*.log
+*.tmp
+*.temp
+logs/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads & Media
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!frontend/public/**/*.png
+!frontend/public/**/*.jpg
+
+# OS Files
+.DS_Store
+Thumbs.db
